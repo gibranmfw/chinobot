@@ -15,7 +15,7 @@ def load_app():
     dotenv_path = join(dirname(__file__), '.env')
     load_dotenv(dotenv_path)
 
-    from csuibot import app
+    from src import app
     return app
 
 
